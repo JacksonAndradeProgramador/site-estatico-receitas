@@ -1,0 +1,46 @@
+
+.receitas {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: flex-start;
+   
+}
+
+.card {
+   background-color: rgb(252, 231, 177) !important; 
+   padding: 10px;
+   height: 2px;
+   margin: 5px;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+.card-body{
+   height: 400px;
+   overflow: auto;
+}
+.card-title{
+   font-size: 17px;
+  
+}
+.card-text{
+   font-size: 11px;
+}
+.card-img-top{
+   width: 100%;
+   border-radius: 7px;
+        
+}
+
+.painel-receita ul li{
+   font-weight: bold;
+   text-align: left;
+    
+ }
+ .painel-receita p{
+   font-size: 14px;
+   text-align: center; 
+ }
+
